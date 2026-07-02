@@ -1839,6 +1839,8 @@ PRODUCT_PACKAGES += \
     AIUnit \
     AIMemory \
     AONService \
+    StdID \
+    RomUpdate \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \

@@ -17954,6 +17954,30 @@ android_app_import {
     product_specific: true,
 }
 
+android_app_import {
+    name: "StdID",
+    owner: "oneplus",
+    apk: "proprietary/system_ext/priv-app/StdID/StdID.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "RomUpdate",
+    owner: "oneplus",
+    apk: "proprietary/product/app/RomUpdate/RomUpdate.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
 prebuilt_etc_xml {
     name: "vendor.qti.camera.aon-impl.xml",
     owner: "oneplus",
