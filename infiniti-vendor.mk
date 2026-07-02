@@ -1124,6 +1124,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libaiunit_sdk_core.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libnoise.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libnoise.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libopluslog.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libopluslog.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_decode.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_decode.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_detect.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_detect.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libtensorflowlite.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwbkit-seckit3.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwbkit-seckit3.so \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.feature.android.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.feature.android.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework.so \
@@ -1821,6 +1829,7 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
     EuiccGoogle \
     AIUnit \
+    AIMemory \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
