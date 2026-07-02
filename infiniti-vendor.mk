@@ -1835,12 +1835,12 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
-    EuiccGoogle \
-    AIUnit \
     AIMemory \
     AONService \
-    StdID \
     RomUpdate \
+    AIUnit \
+    EuiccGoogle \
+    StdID \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
