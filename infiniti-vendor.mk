@@ -1126,6 +1126,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.feature.android.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.feature.android.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libc++.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libc++_shared.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libdmabufheap.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libdmabufheap.so \
+    vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libopencv_java4.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libopencv_java4.so \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1811,6 +1820,7 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
     EuiccGoogle \
+    AIUnit \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
