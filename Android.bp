@@ -18120,3 +18120,10 @@ cc_prebuilt_binary {
     prefer: true,
     device_specific: true,
 }
+
+filegroup {
+    name: "aon_frameworkres_overlay_apk",
+    srcs: [
+        "proprietary/product/overlay/aon.frameworkres.overlay.product.apk",
+    ],
+}
