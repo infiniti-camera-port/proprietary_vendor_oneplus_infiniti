@@ -1132,8 +1132,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libtensorflowlite.so \
     vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so \
     vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwbkit-seckit3.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwbkit-seckit3.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libNoTopK.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libNoTopK.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libPOSTPROCESS.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libPOSTPROCESS.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libROTATE90PAD.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libROTATE90PAD.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libaiboost_jni.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libaiboost_jni.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libbitmapUtil.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libbitmapUtil.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libfde.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libfde.so \
+    vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libmemoryhelper.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libmemoryhelper.so \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/oplus.feature.android.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/oplus.feature.android.xml \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/infiniti/proprietary/product/overlay/aon.frameworkres.overlay.product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/aon.frameworkres.overlay.product.apk \
     vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework.so \
     vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so \
     vendor/oneplus/infiniti/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so \
@@ -1830,6 +1838,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     AIUnit \
     AIMemory \
+    AONService \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
