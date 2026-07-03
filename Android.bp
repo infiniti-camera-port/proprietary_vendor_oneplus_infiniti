@@ -13289,6 +13289,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "camera.oemlayer.v2",
     owner: "oneplus",
+    check_elf_files: false,
     strip: {
         none: true,
     },
