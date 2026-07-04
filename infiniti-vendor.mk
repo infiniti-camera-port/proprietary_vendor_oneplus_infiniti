@@ -1124,14 +1124,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libaiunit_sdk_core.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libnoise.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libnoise.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libopluslog.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libopluslog.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_decode.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_decode.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_detect.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_detect.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libtensorflowlite.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so \
-    vendor/oneplus/infiniti/proprietary/product/app/AIMemory/lib/arm64/libwbkit-seckit3.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwbkit-seckit3.so \
     vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libNoTopK.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libNoTopK.so \
     vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libPOSTPROCESS.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libPOSTPROCESS.so \
     vendor/oneplus/infiniti/proprietary/product/app/AONService/lib/arm64/libROTATE90PAD.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libROTATE90PAD.so \
@@ -1834,7 +1826,6 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_rx_so \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
-    AIMemory \
     AONService \
     RomUpdate \
     AIUnit \
