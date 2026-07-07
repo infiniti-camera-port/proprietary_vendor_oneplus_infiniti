@@ -1,15 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-    "soc_id": ["660", "661"]
-  },
-  "oplus_flight_scene_commom":{
-    "owner": "flight_scene",
-    ".config":{
-      "owner": "flight_scene",
-      "is_available":{ "type": "int", "ver": "0",
-        "data": "1"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d86099bbef72de3651d891511e98980cc423b8261bafc7464d186f367b2c5a3
+size 317

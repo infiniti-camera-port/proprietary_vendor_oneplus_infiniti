@@ -1,13 +1,3 @@
-{
-  "config":{
-  },
-  "oplus_rotation_commom":{
-    "owner": "oplus_rotation",
-    ".config":{
-      "owner": "oplus_rotation",
-      "is_available":{ "type": "int", "ver": "0",
-        "data": "1"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81fc7e974b47c0613b48a1bf7323d3d906aabdeabc508a85147296437857544b
+size 218

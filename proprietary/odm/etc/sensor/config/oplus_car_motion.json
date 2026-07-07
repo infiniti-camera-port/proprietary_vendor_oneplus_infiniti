@@ -1,15 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
-    "soc_id": ["618", "660", "661"]
-  },
-  "car_motion":{
-    "owner": "sns_car_motion",
-    ".config":{
-      "owner": "sns_car_motion",
-      "available":{ "type": "int", "ver": "0",
-        "data": "1"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c9b06fad3fcab1a347a06447bcecc087a4feee34b99109f6cc08278820f9a06
+size 312

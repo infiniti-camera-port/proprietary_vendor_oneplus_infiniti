@@ -1,18 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-    "soc_id": ["660", "661"]
-  },
-  "lux_aod": {
-    "owner": "lux_aod",
-    "thrd-low": {"type": "int","ver": "0",
-      "data": "12"
-    },
-    "thrd-high": {"type": "int","ver": "0",
-      "data": "50"
-    },
-    "deploy-multi-aod": {"type": "int","ver": "0",
-      "data": "1"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5df28047a760d808fbeb25264664f09762df6d94b28fad003e1d499b01f8947
+size 365

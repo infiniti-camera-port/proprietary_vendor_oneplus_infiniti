@@ -1,18 +1,3 @@
-{
-    "config":{
-        "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-        "soc_id": ["660", "661"]
-    },
-    "pedometer_minute_platform":{
-        "owner": "pedometer_minute",
-        ".cal_sensor_config":{
-            "owner": "pedometer_minute",
-            "sup_gyro_cal_on":{ "type": "int", "ver": "0",
-                "data": "1"
-            },
-            "sup_mag_cal_on":{ "type": "int", "ver": "0",
-                "data": "1"
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63806cd9b50bad0cb59b2d9cc0a8ad549f36711c1dd64562fa10430db82ef030
+size 481

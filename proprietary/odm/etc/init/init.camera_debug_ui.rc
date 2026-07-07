@@ -1,2 +1,3 @@
-on post-fs-data
-    mkdir /data/vendor/camera_debug_ui 0777 camera camera
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ec192329fe4951ac3c257a74538016b43e3d4f436c8c0999a7b5d73e978c74e
+size 73

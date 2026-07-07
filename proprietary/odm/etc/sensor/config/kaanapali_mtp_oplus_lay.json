@@ -1,27 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-    "soc_id": ["660", "661"]
-  },
-  "oplus_lay_commom":{
-    "owner": "oplus_lay",
-    ".config":{
-      "owner": "oplus_lay",
-      "is_available":{ "type": "int", "ver": "0",
-        "data": "1"
-      },
-      "max_angel":{ "type": "flt", "ver": "0",
-        "data": "90"
-      },
-      "min_angel":{ "type": "flt", "ver": "0",
-        "data": "30"
-      },
-      "lay_in_time":{ "type": "int", "ver": "0",
-        "data": "10"
-      },
-      "lay_out_time":{ "type": "int", "ver": "0",
-        "data": "3"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dbd50c35e861c9b60bbfc33190a735cbc17f823da66aaefde8a1c68f5efafbe
+size 601

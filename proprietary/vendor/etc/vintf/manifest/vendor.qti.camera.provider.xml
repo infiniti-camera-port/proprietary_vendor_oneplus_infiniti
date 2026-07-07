@@ -1,11 +1,3 @@
-<!--
-    Input:
-        vendor/qcom/proprietary/camera-sfw/service/provider/aidl/vendor.qti.camera.provider.xml
--->
-<manifest version="9.0" type="device">
-    <hal format="aidl">
-        <name>android.hardware.camera.provider</name>
-        <version>3</version>
-        <fqname>ICameraProvider/vendor_qti/0</fqname>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:415852b40ef1f67c1932f1f0eb4cb91bd94c3f8c6bfdb236f5a2ed7cee29b73f
+size 339

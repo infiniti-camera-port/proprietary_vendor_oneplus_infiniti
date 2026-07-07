@@ -1,18 +1,3 @@
-method_num:2
-sampling_fmhz:1000
-cal_fmhz_count:1
-cal_fmhz:25
-step_curr_set_count_max:3
-step_curr_value:2000,0
-cc_min:50
-soc_range:10,80
-temp_range:200,400,15
-update_interval:2419200
-r_soc_factor:0.0369,0.0369,0.0236,-0.0048,0.0120,-0.0024,-0.0019,-0.0211,-0.0211,-0.0211
-r_temp_factor:0.026
-r_main_soc:0.6
-r_main_temp:25.0
-r_main_k:-2.2991
-r_main_b:1.0863
-switch_status:2
-crc_code:0x5b2b0b09
+version https://git-lfs.github.com/spec/v1
+oid sha256:014db74139761c642b5f8fa802a1e5596341867963801aee8ba0105a04400ccf
+size 410
