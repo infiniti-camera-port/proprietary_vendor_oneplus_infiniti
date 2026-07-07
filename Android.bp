@@ -11178,6 +11178,76 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libui-stock",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libui-stock.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.allocator@2.0",
+                "android.hardware.graphics.allocator@3.0",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.common@1.2",
+                "android.hardware.graphics.mapper@2.0",
+                "android.hardware.graphics.mapper@2.1",
+                "android.hardware.graphics.mapper@3.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libbase",
+                "libbinder_ndk",
+                "libcutils",
+                "libgralloctypes",
+                "libhidlbase",
+                "libsync",
+                "libutils",
+                "liblog",
+                "libvndksupport",
+                "android.hardware.graphics.common-V7-ndk",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libutils-stock",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libutils-stock.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvndksupport",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libvideoml",
     owner: "oneplus",
     strip: {
@@ -11820,6 +11890,41 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     prefer: true,
     soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalogencrypt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -13183,10 +13288,15 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     name: "camera.oemlayer.v2",
     owner: "oneplus",
     check_elf_files: false,
+=======
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+>>>>>>> fcbd483 (infiniti: camera blobs (rear-bokeh/OCCE, OEM HAL, BasicTone) + graphics.common V7 stock libs)
     strip: {
         none: true,
     },
@@ -13243,7 +13353,10 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+<<<<<<< HEAD
 >>>>>>> d3c3087 (camera.oemlayer.v2: skip check_elf_files (host-resolved plugin symbol))
+=======
+>>>>>>> fcbd483 (infiniti: camera blobs (rear-bokeh/OCCE, OEM HAL, BasicTone) + graphics.common V7 stock libs)
     name: "lib2DSlender",
     owner: "oneplus",
     strip: {
@@ -13488,6 +13601,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     device_specific: true,
 }
+
 
 cc_prebuilt_library_shared {
     name: "libAncSegBaseSdk",
@@ -17295,8 +17409,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libdmabufheap",
                 "libnativewindow",
-                "libui",
-                "libutils",
+                "libui-stock",
+                "libutils-stock",
                 "libcutils",
                 "liblog",
                 "libc++",
