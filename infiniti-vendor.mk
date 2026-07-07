@@ -1565,6 +1565,8 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libtfestriping \
     libubifocus \
+    libui-stock \
+    libutils-stock \
     libvideoml \
     libDLDPP_skel \
     libHexlpQnnHtp \
@@ -1595,6 +1597,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libalogencrypt \
     libQnnHtpV81Skel.AIMotion \
     libQnnHtp.AIMotion \
     libQnnHtpV81Stub.AIMotion \
@@ -1634,6 +1637,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
     com.oplus.node.preview.v2 \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
