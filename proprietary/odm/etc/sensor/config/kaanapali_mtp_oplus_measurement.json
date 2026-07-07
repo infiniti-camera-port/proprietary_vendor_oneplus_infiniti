@@ -1,15 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-    "soc_id": ["660", "661"]
-  },
-  "oplus_measurement_commom":{
-    "owner": "oplus_measurement",
-    ".config":{
-      "owner": "oplus_measurement",
-      "is_available":{ "type": "int", "ver": "0",
-        "data": "1"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0fc0e495c9539629005e9d5ea15f756d868b1a090d4e868a2c9594370b40c66
+size 313

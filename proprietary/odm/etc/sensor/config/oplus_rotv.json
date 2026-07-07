@@ -1,15 +1,3 @@
-{
-    "config":{
-        "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-        "soc_id": ["660", "661"]
-    },
-    "oplus_rotv_platform":{
-        "owner": "oplus_rotv",
-        ".config":{
-            "owner": "oplus_rotv",
-            "is_available":{ "type": "int", "ver": "0",
-                "data": "1"
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0533a4c67bed49682dd762e57658db5546a31920fb15df116685af75a234187a
+size 348

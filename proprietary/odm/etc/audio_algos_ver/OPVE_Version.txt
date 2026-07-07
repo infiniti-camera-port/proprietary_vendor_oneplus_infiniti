@@ -1,1 +1,3 @@
-OPVE_Version = OPVE_V2.6.0rc
+version https://git-lfs.github.com/spec/v1
+oid sha256:5947c8dc7721f37655454b43ff37c5c1167fb7bab7133008c480257515661f04
+size 28

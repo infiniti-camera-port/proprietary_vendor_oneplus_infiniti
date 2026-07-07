@@ -1,7 +1,3 @@
-{
-    "rearCapturemode":  256,
-    "rearPortraitMode": 128,
-    "ancSegMulitMode":  1,
-    "oppsegMode":       2,
-    "PET_SEG":          3
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e603b061604c1b3c648fea3cf6ca88a4854b04ec22f60648a13384c91bdd182
+size 142

@@ -1,30 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf", "HDK", "QRD"],
-    "soc_id": ["660", "661"]
-  },
-  "pocket":{
-    "owner": "sns_pocket",
-    ".config":{
-      "owner": "sns_pocket",
-      "is_available":{ "type": "int", "ver": "0",
-        "data": "1"
-      },
-      "fold_type":{ "type": "int", "ver": "0",
-        "data": "2"
-      },
-      "prox_type":{ "type": "int", "ver": "0",
-        "data": "0"
-      },
-      "need_als":{ "type": "int", "ver": "0",
-        "data": "0"
-      },
-      "als_thrd_low":{ "type": "int", "ver": "0",
-        "data": "0"
-      },
-      "als_thrd_high":{ "type": "int", "ver": "0",
-        "data": "0"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff4f21fbe1ab85e092b3ca27d2e2af856e27b3291d5b548f4ef1f32a930def91
+size 697
