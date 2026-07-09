@@ -13182,68 +13182,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-<<<<<<< HEAD
-=======
-    name: "camera.oemlayer.v2",
-    owner: "oneplus",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
-            ],
-            shared_libs: [
-                "libcamera_metadata",
-                "libhardware",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libui",
-                "android.hardware.graphics.common@1.0",
-                "android.hardware.graphics.common@1.1",
-                "android.hardware.graphics.common@1.2",
-                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
-                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
-                "libmidasserviceintf_aidl",
-                "android.frameworks.sensorservice@1.0",
-                "libsensorbridge",
-                "libbinder_ndk",
-                "vendor.oplus.hardware.charger-V8-ndk",
-                "liboutils",
-                "libocompression",
-                "vendor.oplus.hardware.commondcs-V1-ndk",
-                "libbinder",
-                "vendor.oplus.hardware.osense.client-V1-ndk",
-                "libosenseaidlhalclient",
-                "libhardware_legacy",
-                "libhwconfigurationutil",
-                "libvndksupport",
-                "liboplusdfx",
-                "vendor.oplus.hardware.camera.aon-service-impl",
-                "libosensenativeproxy_client",
-                "camera.oemlayer.uilayer",
-                "camera.oemlayer.logger",
-                "camera.oemlayer.healthmonitor",
-                "libopluscameraframeboost",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
->>>>>>> d3c3087 (camera.oemlayer.v2: skip check_elf_files (host-resolved plugin symbol))
     name: "lib2DSlender",
     owner: "oneplus",
     strip: {
@@ -17282,36 +17220,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsharebuffer_impl",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libsharebuffer_impl.so",
-            ],
-            shared_libs: [
-                "libdmabufheap",
-                "libnativewindow",
-                "libui",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libssd_det",
     owner: "oneplus",
     strip: {
@@ -17776,46 +17684,6 @@ prebuilt_rfsa {
 }
 
 android_app_import {
-<<<<<<< HEAD
-=======
-    name: "AONService",
-    owner: "oneplus",
-    apk: "proprietary/product/app/AONService/AONService.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-}
-
-android_app_import {
-    name: "RomUpdate",
-    owner: "oneplus",
-    apk: "proprietary/product/app/RomUpdate/RomUpdate.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-}
-
-android_app_import {
-    name: "AIUnit",
-    owner: "oneplus",
-    apk: "proprietary/product/priv-app/AIUnit/AIUnit.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-}
-
-android_app_import {
->>>>>>> 33a491d (infiniti: drop AIMemory blob + generated refs (paired with device proprietary-files removal))
     name: "EuiccGoogle",
     owner: "oneplus",
     apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
