@@ -11823,6 +11823,43 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.dolby.dvs-V1-ndk",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/vendor.dolby.dvs-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/vendor.dolby.dvs-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libQnnHtpV81Skel.AIMotion",
     stem: "libQnnHtpV81Skel",
     owner: "oneplus",
@@ -17724,6 +17761,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "dvs-aidl-service.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/dvs-aidl-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "manifest_oplus_camera_rfi.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_camera_rfi.xml",
@@ -17777,6 +17823,37 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "dvs-aidl-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/dvs-aidl-service",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libdolbyottcameracontrol",
+                "libsensorndkbridge",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
 }
 
 cc_prebuilt_binary {

@@ -866,6 +866,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
     vendor/oneplus/infiniti/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
+    vendor/oneplus/infiniti/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
@@ -1520,6 +1521,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    vendor.dolby.dvs-V1-ndk \
     libQnnHtpV81Skel.AIMotion \
     libQnnHtp.AIMotion \
     libQnnHtpV81Stub.AIMotion \
@@ -1741,9 +1743,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
+    dvs-aidl-service.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
+    dvs-aidl-service \
     vendor.oplus.hardware.cammidasservice-V1-service
