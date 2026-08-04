@@ -6,6 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/infiniti
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/infiniti/proprietary/my_product/etc/oplus_vrr_config.json:$(TARGET_COPY_OUT_MY_PRODUCT)/etc/oplus_vrr_config.json \
+    vendor/oneplus/infiniti/proprietary/my_product/etc/refresh_rate_config.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/etc/refresh_rate_config.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/etc/sys_background_vsync_config.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/etc/sys_background_vsync_config.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/etc/sys_dynamic_frame_config.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/etc/sys_dynamic_frame_config.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/vendor/etc/display_brightness_config_P_3.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/vendor/etc/display_brightness_config_P_3.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/vendor/etc/display_brightness_config_P_7.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/vendor/etc/display_brightness_config_P_7.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/vendor/etc/multimedia_display_adfr2minfps_config.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/vendor/etc/multimedia_display_adfr2minfps_config.xml \
+    vendor/oneplus/infiniti/proprietary/my_product/vendor/etc/multimedia_display_brightness_config.xml:$(TARGET_COPY_OUT_MY_PRODUCT)/vendor/etc/multimedia_display_brightness_config.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_P3.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Center_sRGB.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Center_sRGB.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/PanelChaplin/3D-Lut_Enhance_P3.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/3D-Lut_Enhance_P3.txt \
